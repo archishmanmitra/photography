@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Rosalindale';
+    src: url(/fonts/Roslindale-DisplayCondensedRegular-Testing.woff2);
+}
+@font-face {
+    font-family: 'Grotesk';
+    src: url(/fonts/MintGroteskTrial-RegularDisplay-BF64336b1cd46bb.otf);
+}
+@font-face {
+    font-family: 'Rosalindale Regular';
+    src: url(/fonts/Roslindale-DisplayRegular-Testing.woff2);
+}
+
+body{
+ @apply box-border w-full h-full p-0 m-0 overflow-x-hidden text-white cursor-wait scroll-smooth bg-zinc-950;
+ 
+}
