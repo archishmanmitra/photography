@@ -1,10 +1,14 @@
-import Parallax from "./components/Parallax";
-import Cursor from "./components/Cursor";
-import Navbar from "./components/Navbar";
-import Preloader from "./components/Preloader";
-import Footer from "./components/Footer";
+
+import Layout from "./components/Layout";
 import { useEffect, useState } from "react";
+
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
 import { AnimatePresence } from "framer-motion";
+import Cursor from "./components/Cursor";
+import Preloader from "./components/Preloader";
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -21,13 +25,15 @@ const App = () => {
   return (
     <>
       <AnimatePresence mode="wait">
-        {isLoading && <Preloader />}
+        {isLoading && location.pathname === '/' && <Preloader />}
       </AnimatePresence>
       {!isLoading && <Cursor />}
-      <Navbar />
-
-      <Parallax />
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="" element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
     </>
   );
 };

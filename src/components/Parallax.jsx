@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from 'gsap';
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Navbar from "./Navbar";
+
 
 const Parallax = () => {
   

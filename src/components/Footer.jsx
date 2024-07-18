@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="uppercase">2024 &#169; Archishman Mitra</div>
         <div className="flex justify-center gap-4 mr-6">
           <Button name="github" />
-          <Button name="instagram" href='https://www.instagram.com/reel/C7GBdS_y7zP/?igsh=MWtwdHNrdmQ2cG84cQ=='/>
+          <Button name="instagram" href='https://www.instagram.com/_lyadh_lagche_/'/>
           <Button name="twitter" />
         </div>
         <div className="uppercase">Design And Dev by me</div>
