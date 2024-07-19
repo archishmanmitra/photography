@@ -47,7 +47,7 @@ const Footer = () => {
         </text>
       </svg>
 
-      <div  className="flex items-center justify-between w-full px-10 pt-24 pb-12 ext-md font-grotesk">
+      <div  className="flex items-center justify-between w-full px-10 pt-24 pb-10 ext-md font-grotesk">
         <div className="uppercase">2024 &#169; Archishman Mitra</div>
         <div className="flex justify-center gap-4 mr-6">
           <Button name="github" />

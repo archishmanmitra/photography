@@ -16,6 +16,6 @@
 }
 
 body{
- @apply box-border w-full h-full p-0 m-0 overflow-x-hidden text-white cursor-wait scroll-smooth bg-zinc-950;
+ @apply box-border w-full h-full p-0 m-0 overflow-x-hidden text-white cursor-wait scroll-smooth bg-zinc-950 font-serif;
  
 }

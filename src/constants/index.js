@@ -4,31 +4,31 @@ export const parallaxImages = [
     {   
         key:1,
         classes:'top-[60%] left-[2%] rotate-[-5deg] img1',
-        src:'./images/headless_encounter_main.jpg',
+        src:'./images/parallax/headless_encounter_main.jpg',
         rotation:'-50'
     },
     {   
         key:2,
         classes:'top-[10%] left-[24%] rotate-[5deg] img2',
-        src:'./images/mamata.jpeg',
+        src:'./images/parallax/mamata.jpeg',
         rotation:'-50'
     },
     {   
         key:3,
         classes:'top-[60%] left-[42%] rotate-[0deg] img3',
-        src:'./images/goddess.jpg',
+        src:'./images/parallax/goddess.jpg',
         rotation:'50'
     },
     {   
         key:4,
         classes:'top-[10%] left-[58%] rotate-[-5deg] img4',
-        src:'./images/untitled2.jpg',
+        src:'./images/parallax/untitled2.jpg',
         rotation:'-50'
     },
     {   
         key:5,
         classes:'top-[60%] left-[84%] rotate-[5deg] img5',
-        src:'./images/washed-out-flags.jpg',
+        src:'./images/parallax/washed-out-flags.jpg',
         rotation:'360'
     },
 ];
