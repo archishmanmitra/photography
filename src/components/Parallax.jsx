@@ -67,9 +67,7 @@ const Parallax = () => {
           </div>
         ))}
       </div>
-      <div className="absolute top-[150vh]  h-screen w-full flex justify-center items-center">
-        <h2 className="w-max text-center text-3xl">*tada*</h2>
-      </div>
+     
     </div>
   );
 };
