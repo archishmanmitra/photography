@@ -6,7 +6,7 @@ const HoverImage = ({ item }) => {
 
   return (
     <div
-      className={`img h-[25rem] overflow-hidden flex justify-center items-center flex-shrink mx-1 border-none ${
+      className={`img h-[24rem] rounded-md overflow-hidden flex justify-center items-center flex-shrink mx-1 border-none ${
         isHovered ? "flex-grow basis-96" : "basis-5"
       }`}
       style={{ transition: "flex 1s cubic-bezier(0.075,0.82,0.165,1)" }}
@@ -14,7 +14,7 @@ const HoverImage = ({ item }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
-        className="w-[25rem] h-[100%] object-content"
+        className="w-auto h-[100%] object-cover"
         style={{ transform: "scale(2)" }}
         src={item.src}
         alt=""
@@ -32,7 +32,7 @@ const Hover = () => {
       <h2 className="w-max text-center text-4xl pb-14 tracking-widest">
         HALL OF FAME
       </h2>
-      <div className="w-[90%] flex justify-around overflow-hidden pb-[50vh]">
+      <div className="w-[80%] flex justify-around overflow-hidden pb-[70vh]">
         {hoverImages.map((item) => (
           <HoverImage key={item.key} item={item} />
         ))}
