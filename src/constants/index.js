@@ -35,95 +35,95 @@ export const parallaxImages = [
 export const hoverImages=[
     {
         key:1,
-        src:'./images/hover/img1.jpg'
+        src:'./images/hover/img1.webp'
     },
     {
         key:2,
-        src:'./images/hover/img2.jpg'
+        src:'./images/hover/img2.webp'
     },
     {
         key:3,
-        src:'./images/hover/img3.jpg'
+        src:'./images/hover/img3.webp'
     },
     {
         key:4,
-        src:'./images/hover/img4.jpg'
+        src:'./images/hover/img4.webp'
     },
     {
         key:5,
-        src:'./images/hover/img5.jpg'
+        src:'./images/hover/img5.webp'
     },
     {
         key:6,
-        src:'./images/hover/img6.jpg'
+        src:'./images/hover/img6.webp'
     },
     {
         key:7,
-        src:'./images/hover/img7.jpeg'
+        src:'./images/hover/img7.webp'
     },
     {
         key:8,
-        src:'./images/hover/img8.jpeg'
+        src:'./images/hover/img8.webp'
     },
     {
         key:9,
-        src:'./images/hover/img9.jpg'
+        src:'./images/hover/img9.webp'
     },
     {
         key:10,
-        src:'./images/hover/img10.jpg'
+        src:'./images/hover/img10.webp'
     },
     {
         key:11,
-        src:'./images/hover/img11.jpeg'
+        src:'./images/hover/img11.webp'
     },
     {
         key:12,
-        src:'./images/hover/img12.jpg'
+        src:'./images/hover/img12.webp'
     },
     {
         key:13,
-        src:'./images/hover/img13.jpeg'
+        src:'./images/hover/img13.webp'
     },
     {
         key:14,
-        src:'./images/hover/img14.jpg'
+        src:'./images/hover/img14.webp'
     },
     {
         key:15,
-        src:'./images/hover/img15.jpg'
+        src:'./images/hover/img15.webp'
     },
     {
         key:16,
-        src:'./images/hover/img16.jpeg'
+        src:'./images/hover/img16.webp'
     },
     {
         key:17,
-        src:'./images/hover/img17.jpg'
+        src:'./images/hover/img17.webp'
     },
     {
         key:18,
-        src:'./images/hover/img18.jpg'
+        src:'./images/hover/img18.webp'
     },
     {
         key:19,
-        src:'./images/hover/img19.jpg'
+        src:'./images/hover/img19.webp'
     },
     {
         key:20,
-        src:'./images/hover/img20.jpg'
+        src:'./images/hover/img20.webp'
     },
     {
         key:21,
-        src:'./images/hover/img21.jpeg'
+        src:'./images/hover/img21.webp'
     },
     {
         key:22,
-        src:'./images/hover/img22.jpeg'
+        src:'./images/hover/img22.webp'
     },
     {
         key:23,
-        src:'./images/hover/img23.jpg'
+        src:'./images/hover/img23.webp'
     },
 ]
 export const opacity = {

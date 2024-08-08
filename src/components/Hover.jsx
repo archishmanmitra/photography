@@ -6,16 +6,16 @@ const HoverImage = ({ item }) => {
 
   return (
     <div
-      className={`img h-[24rem] rounded-md overflow-hidden flex justify-center items-center flex-shrink mx-1 border-none ${
+      className={`img h-[24rem] rounded-md overflow-hidden flex justify-center items-center flex-shrink mx-1 border-none transition-all duration-1s transition-custom-ease ${ 
         isHovered ? "flex-grow basis-96" : "basis-5"
       }`}
-      style={{ transition: "flex 1s cubic-bezier(0.075,0.82,0.165,1)" }}
+      
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
-        className="w-auto h-[100%] object-cover"
-        style={{ transform: "scale(2)" }}
+        className={`w-auto h-full rounded-md ${isHovered?'object-fill':'object-cover'}`}
+        style={{ transform: "scale(1.25)" }}
         src={item.src}
         alt=""
       />
