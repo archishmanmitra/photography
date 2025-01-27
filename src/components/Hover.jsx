@@ -1,22 +1,31 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { hoverImages } from "../constants";
 
 const HoverImage = ({ item }) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const imgRef = useRef(null)
+
+  useEffect(() => {
+    const img = imgRef.current;
+    img.style.transform = isHovered? 'scale:(1.25)':'scale(1)';
+   
+  }, [isHovered])
+  
   return (
     <div
       className={`img h-[24rem] rounded-md overflow-hidden flex justify-center items-center flex-shrink mx-1 border-none transition-all duration-1s transition-custom-ease ${ 
-        isHovered ? "flex-grow basis-96" : "basis-5"
+        isHovered ? "flex-grow basis-96" : "basis-10"
       }`}
       
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
-        className={`w-auto h-full rounded-md ${isHovered?'object-fill':'object-cover'}`}
-        style={{ transform: "scale(1.25)" }}
+        className='w-auto h-full rounded-md  transition-all duration-1s ease-in-out'
+       
         src={item.src}
+        ref={imgRef}
         alt=""
       />
     </div>

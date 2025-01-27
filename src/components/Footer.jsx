@@ -21,7 +21,7 @@ const Footer = () => {
   const y = useTransform(scrollYProgress, [0, 1], [-550, 0]);
 
   return (
-    <div ref={container} id="#footer" className="relative ">
+    <div ref={container} id="footer" className="relative ">
       <svg className="w-full " viewBox="0 0 250 90">
         <path
           fill="none"
